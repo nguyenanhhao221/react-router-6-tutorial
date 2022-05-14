@@ -14,19 +14,23 @@ export const Navbar = () => {
             {/* Also because NavLink will automatic apply active class to which element currently active, we can also style in css the active class*/}
             <NavLink
                 to='/'
-                className={({ isActive }) => isActive ? 'link active' : 'link'}>Home
+                className={({ isActive }) => isActive ? 'link active' : 'link'}>
+                Home
             </NavLink>
             <NavLink
                 to='about'
-                className={({ isActive }) => isActive ? 'link active' : 'link'}>About
+                className={({ isActive }) => isActive ? 'link active' : 'link'}>
+                About
             </NavLink>
             <NavLink
                 to='products'
-                className={({ isActive }) => isActive ? 'link active' : 'link'}>Products
+                className={({ isActive }) => isActive ? 'link active' : 'link'}>
+                Products
             </NavLink>
             <NavLink
                 to='login'
-                className={({ isActive }) => isActive ? 'link active' : 'link'}>Login
+                className={({ isActive }) => isActive ? 'link active' : 'link'}>
+                Login
             </NavLink>
         </nav >
     )
